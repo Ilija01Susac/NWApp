@@ -75,7 +75,7 @@ body{
 /* ------------------------- HEADER ----------------------*/
 .header{
   height: 500px;
-  background-image: url("img/7sm.jpg");
+  background-image: url("img/pare.jpg");
   background-size: cover;
   background-repeat:   no-repeat;
   background-position: center center;
@@ -154,4 +154,3 @@ body{
   }
   }
 
-}

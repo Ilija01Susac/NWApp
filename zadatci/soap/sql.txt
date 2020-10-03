@@ -1,0 +1,4 @@
+SELECT * FROM customer 
+INNER JOIN account ON account.CUST_ID = customer.CUST_ID
+INNER JOIN product ON product.PRODUCT_CD = account.PRODUCT_CD
+WHERE product.PRODUCT_CD = (SELECT PRODUCT_CD from product WHERE NAME = 'money market account');

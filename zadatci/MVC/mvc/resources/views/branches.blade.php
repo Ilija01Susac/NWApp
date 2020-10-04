@@ -16,7 +16,7 @@
         <div id="app">
             <navbar></navbar>
             <div class="container">
-            <departments></departments>
+            <branches></branches>
             </div>
         </div>
 
